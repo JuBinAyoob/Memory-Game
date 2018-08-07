@@ -1,0 +1,54 @@
+DOCTYPE
+html
+    head
+        meta(charset="UTF-8")
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        link(rel='stylesheet', href='/static/css/styles.css')
+        title Memory Game
+        script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+        script(type='text/javascript', src='/static/js/game.js')
+    body
+        div(class="header")
+            h1 Memory Game
+        div(class="div-timer")
+            span(class="spn-moves-title") Moves:
+            span(class="spn-moves") 0
+            span(class="spn-timer-title") Timer: 
+            span(class="spn-timer") 00:00:00
+        div(class="game-window")
+            div(class="single-column", id="0")
+                img(class="single-pic", src="static/images/blank.png", id="img0")
+            div(class="single-column", id="1")
+                img(class="single-pic", src="static/images/blank.png", id="img1")
+            div(class="single-column", id="2")
+                img(class="single-pic", src="static/images/blank.png", id="img2")
+            div(class="single-column", id="3")
+                img(class="single-pic", src="static/images/blank.png", id="img3")
+            div(class="single-column", id="4")
+                img(class="single-pic", src="static/images/blank.png", id="img4")
+            div(class="single-column", id="5")
+                img(class="single-pic", src="static/images/blank.png", id="img5")
+            div(class="single-column", id="6")
+                img(class="single-pic", src="static/images/blank.png", id="img6")
+            div(class="single-column", id="7")
+                img(class="single-pic", src="static/images/blank.png", id="img7")
+            div(class="single-column", id="8")
+                img(class="single-pic", src="static/images/blank.png", id="img8")
+            div(class="single-column", id="9")
+                img(class="single-pic", src="static/images/blank.png", id="img9")
+            div(class="single-column", id="10")
+                img(class="single-pic", src="static/images/blank.png", id="img10")
+            div(class="single-column", id="11")
+                img(class="single-pic", src="static/images/blank.png", id="img11")
+            div(class="single-column", id="12")
+                img(class="single-pic", src="static/images/blank.png", id="img12")
+            div(class="single-column", id="13")
+                img(class="single-pic", src="static/images/blank.png", id="img13")
+            div(class="single-column", id="14")
+                img(class="single-pic", src="static/images/blank.png", id="img14")
+            div(class="single-column",id="15")
+                img(class="single-pic", src="static/images/blank.png", id="img15")
+        div(class="player-det player-det-hide")
+            input(type="text", class="player-name", placeholder="Enter Player Name")
+            button(class="save-game-data") Enter name

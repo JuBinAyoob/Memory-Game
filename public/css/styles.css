@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+
+body{
+    margin: 0;
+    width:100%;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.header{
+    display: block;
+    background-color: #333333;
+    color: azure;
+    text-align: center;
+    font-family: 'Pacifico';
+}
+
+.div-timer{
+    display: block;
+    text-align: right;
+}
+
+.spn-moves-title{
+    color: white;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.spn-moves{
+    margin-right: 27px;
+}
+
+.spn-timer-title{
+    color: white;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.spn-timer{
+    margin-right: 6%;
+}
+
+.game-window{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-pic{
+    width: 100%;
+    height: 75px;
+}
+
+.single-column{
+    margin: 5px;
+}
+
+.player-det{
+    padding-top: 18px;
+    text-align: center;
+}
+
+.player-name{
+    height: 33px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.finish-game{
+    height: 33px;
+}
+
+.player-det-hide{
+    display: none;
+}
